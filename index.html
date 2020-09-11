@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- custom container css -->
+    <link rel="stylesheet" href="./css/custom.container.css">
+    <!-- animated css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- curosel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./css/responsiv.css">
+
+
+</head>
+
+<body>
+    <!-- custom-container -->
+
+    <header>
+        <div class="header-wrap">
+            <div class="custom-container">
+                <div class="menu-section">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="Logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto w-100 justify-content-end header-nav">
+
+                                <li class="nav-item dropdown active">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Home <img src="./images/chevron-down.png" alt="">
+                            </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              jobs <img src="./images/chevron-down.png" alt="">
+                            </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            pages <img src="./images/chevron-down.png" alt="">
+                          </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">contact</a>
+                                </li>
+
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                                <button class="upload-button not-outline" type="submit"><img src="./images/upload.png" alt=""> Post a Job</button>
+                            </form>
+                        </div>
+                    </nav>
+
+                </div>
+                <!-- /.menu-section -->
+
+                <div class="hero-section">
+                    <div class="row">
+                        <div class="col-md-7 position-relative">
+                            <h2>Hire expert & find your Job
+                            </h2>
+                            <div class="sr-card">
+                                <form action="">
+                                    <li><img src="./images/search.png" alt=""><input type="text" name="" id="" placeholder="Job title or keyword" class="not-outline"></li>
+                                    <li>
+
+                                        <div class="select-box">
+
+                                            <div class="option-container">
+
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Bangladesh">
+                                                    <label for="Bangladesh">Bangladesh</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="England">
+                                                    <label for="England">England</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Nepal">
+                                                    <label for="Nepal">Nepal</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Pakistan">
+                                                    <label for="Pakistan">Pakistan</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="India">
+                                                    <label for="India">India</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Brazil">
+                                                    <label for="Brazil">Brazil</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Brazil">
+                                                    <label for="Brazil">Argentina</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Uganda">
+                                                    <label for="Uganda">Uganda</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="America">
+                                                    <label for="America">America</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Rasia">
+                                                    <label for="Rasia">Rasia</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Singapor">
+                                                    <label for="Singapor">Singapor</label>
+                                                </div>
+                                                <div class="option">
+                                                    <input type="radio" name="catagory" id="Newziland">
+                                                    <label for="Newziland">Newziland</label>
+                                                </div>
+
+                                            </div>
+                                            <div class="selected">
+                                                <img src="./images/map-pin.png" alt=""><span>Lansing City</span> <img src="./images/Vector.png" alt="" class="rotet-img">
+                                            </div>
+                                            <!-- /.option-container -->
+
+                                        </div>
+                                        <!-- /.select-box -->
+
+                                    </li>
+                                    <li><input type="submit" name="" id="" value="SEARCH" class="not-outline"></li>
+                                    <!-- search button -->
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-5 left-img">
+                            <img src="./images/hero-img70.png" alt="man" class="">
+                        </div>
+
+                    </div>
+                    <!-- /.row -->
+
+                </div>
+                <!-- / .hero-section-->
+            </div>
+            <!-- /.custom-container -->
+        </div>
+        <!-- /.header-wrap -->
+    </header>
+    <!-- +++++++++======header end=======+++++++++ -->
+
+    <!-- counter-section -->
+    <div class="counter-section">
+        <div class="custom-container counter-bg">
+            <div class="row">
+                <div class="col-lg-8 extra-bg">
+                    <div class="row">
+                        <div class="col ">
+                            <div class="counter-div b-r">
+                                <h2>+
+                                    <h2 class="counter">15800</h2>
+                                </h2>
+
+                                <span>Jobs Added</span>
+                            </div>
+                        </div>
+                        <!-- /.col-lg -->
+                        <div class="col ">
+                            <div class="counter-div">
+                                <h2 class="counter">1580</h2>
+                                <span>Jobs Compleated</span>
+                            </div>
+                        </div>
+                        <!-- /.col-lg -->
+
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.col-lg-8 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.custom-container counter-bg -->
+    </div>
+    <!-- ++++++++++==========counter end========++++++++ -->
+
+    <!-- populer job section -->
+    <section>
+        <div class="job-section-wrap">
+            <div class="custom-container">
+                <div class="section-headding">
+                    <h1>Popular Job Categories</h1>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="job-item">
+                                <img src="./images/Envelope.png" alt="job envelope">
+                                <h2>Business Development</h2>
+                                <p>Make sue you know where interview is being held and how to get there where the interview.</p>
+                            </div>
+                            <!-- /.job-item -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="job-item">
+                                <img src="./images/signs1.png" alt="job ">
+                                <h2>Junior Developer</h2>
+                                <p>Nullam vel hendrerit lectu etiam ut fermentum risus commodo a nulla etiam congue.</p>
+                            </div>
+                            <!-- /.job-item -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="job-item">
+                                <img src="./images/book.png" alt="job ">
+                                <h2>Senior Designer</h2>
+                                <p>Make sue you know where interview is being held and how to get there where the interview.</p>
+                            </div>
+                            <!-- /.job-item -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="job-item">
+                                <img src="./images/megaphone(1)1.png" alt="job ">
+                                <h2>Marketing</h2>
+                                <p>Nullam vel hendrerit lectu etiam ut fermentum risus commodo a nulla etiam congue.</p>
+                            </div>
+                            <!-- /.job-item -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="job-item">
+                                <img src="./images/edit-tools1.png" alt="job edit">
+                                <h2>Graphic Design</h2>
+                                <p>Nullam vel hendrerit lectu etiam ut fermentum risus commodo a nulla etiam congue.</p>
+                            </div>
+                            <!-- /.job-item -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="job-item">
+                                <img src="./images/home(6)1.png" alt="job home">
+                                <h2>Health Care</h2>
+                                <p>Nullam vel hendrerit lectu etiam ut fermentum risus commodo a nulla etiam congue.</p>
+                            </div>
+                            <!-- /.job-item -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="job-browes-btn">
+                        <a href="#">Browse all Categories</a>
+                    </div>
+                    <!-- /.job-browes-btn -->
+                </div>
+                <!-- /.section-headding -->
+            </div>
+            <!-- /.custom-container -->
+        </div>
+        <!-- /.job-section-wrap -->
+    </section>
+    <!-- ++++++++++==========populer job section end========++++++++ -->
+
+    <!-- job find section -->
+    <section>
+        <div class="job-find-section-wrap">
+            <div class="custom-container">
+                <div class="section-headding">
+
+                    <h1>Find Your best Jobs</h1>
+                    <div class="row">
+                        <div class="col-12 job-find-single-box">
+                            <div class="row">
+                                <div class="col-lg-6 job-heading d-flex">
+                                    <img src="./images/image18.png" alt="job">
+                                    <h2>Automation Tech Lead passionate Automation Tech Lead.</h2>
+                                </div>
+                                <!-- /.col-lg-6 -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="row job-description">
+                                <div class="col-lg-5 left-side">
+                                    <ul>
+                                        <li>$<span>1200-16000/m</span></li>
+                                        <li><span>Experience: 1 - 2 years</span></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-5 -->
+                                <div class="col-lg-7 right-side ">
+                                    <ul justify-content-flex-end>
+                                        <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                        <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                        <li><a href="#">Apply now</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-7 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.job-find-single-box -->
+                        <div class="col-12 job-find-single-box">
+                            <div class="row">
+                                <div class="col-lg-6 job-heading d-flex">
+                                    <img src="./images/image29.png" alt="job">
+                                    <h2>Area Manager-Project Sales Vrinda Global Company Location</h2>
+                                </div>
+                                <!-- /.col-lg-6 -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="row job-description">
+                                <div class="col-lg-5 left-side">
+                                    <ul>
+                                        <li>$<span>1200-16000/m</span></li>
+                                        <li><span>Experience: 1 - 2 years</span></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-5 -->
+                                <div class="col-lg-7 right-side ">
+                                    <ul justify-content-flex-end>
+                                        <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                        <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                        <li><a href="#">Apply now</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-7 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.job-find-single-box -->
+                        <div class="col-12 job-find-single-box">
+                            <div class="row">
+                                <div class="col-lg-6 job-heading d-flex">
+                                    <img src="./images/image30.png" alt="job">
+                                    <h2>Sales Engineer Bangladesh best of one of the most exciting</h2>
+                                </div>
+                                <!-- /.col-lg-6 -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="row job-description">
+                                <div class="col-lg-5 left-side">
+                                    <ul>
+                                        <li>$<span>1200-16000/m</span></li>
+                                        <li><span>Experience: 1 - 2 years</span></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-5 -->
+                                <div class="col-lg-7 right-side ">
+                                    <ul justify-content-flex-end>
+                                        <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                        <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                        <li><a href="#">Apply now</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-7 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.job-find-single-box -->
+                        <div class="col-12 job-find-single-box">
+                            <div class="row">
+                                <div class="col-lg-6 job-heading d-flex">
+                                    <img src="./images/image24.png" alt="job">
+                                    <h2>Automation Tech Lead passionate Automation Tech Lead.</h2>
+                                </div>
+                                <!-- /.col-lg-6 -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="row job-description">
+                                <div class="col-lg-5 left-side">
+                                    <ul>
+                                        <li>$<span>1200-16000/m</span></li>
+                                        <li><span>Experience: 1 - 2 years</span></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-5 -->
+                                <div class="col-lg-7 right-side ">
+                                    <ul justify-content-flex-end>
+                                        <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                        <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                        <li><a href="#">Apply now</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-7 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.job-find-single-box -->
+                        <div class="col-12 job-find-single-box">
+                            <div class="row">
+                                <div class="col-lg-6 job-heading d-flex">
+                                    <img src="./images/image31.png" alt="job">
+                                    <h2>International Consultant Head M&E Cox's Bazar Bangladesh</h2>
+                                </div>
+                                <!-- /.col-lg-6 -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="row job-description">
+                                <div class="col-lg-5 left-side">
+                                    <ul>
+                                        <li>$<span>1200-16000/m</span></li>
+                                        <li><span>Experience: 1 - 2 years</span></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-5 -->
+                                <div class="col-lg-7 right-side ">
+                                    <ul>
+                                        <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                        <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                        <li><a href="#">Apply now</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.col-lg-7 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.job-find-single-box -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="all-job-btn">
+                        <a href="#">Show All Jobs</a>
+                    </div>
+                </div>
+                <!-- /.section-headding -->
+            </div>
+            <!--/.custom-container -->
+        </div>
+        <!-- /.job-find-section-wrap -->
+    </section>
+    <!-- ++++++++++==========job find section end========++++++++ -->
+
+
+    <!-- best job section -->
+    <section>
+        <div class="best-job-section-wrap">
+            <div class="custom-container">
+                <div class="section-headding">
+
+                    <h1 class="col-lg-8 col-md-12">Best Company Job Posts</h1>
+                    <div class="row">
+                        <div class="col-lg-4 custom-pd">
+                            <div class="best-job-box">
+                                <img src="./images/image27.png" alt="" class="img64">
+                                <h2>Care International</h2>
+                                <p>Care is an international NGO with of local staff and community partners in the 100 countries.</p>
+                                <ul>
+                                    <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                    <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                </ul>
+                            </div>
+                            <!-- /.best-job-box -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 custom-pd">
+                            <div class="best-job-box">
+                                <img src="./images/image18.png" alt="" class="img64">
+                                <h2>Fao Siat Panis</h2>
+                                <p>Quantanite is looking for passionate Automation Tech Lead this key role being in the forefront.</p>
+                                <ul>
+                                    <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                    <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                </ul>
+                            </div>
+                            <!-- /.best-job-box -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 custom-pd">
+                            <div class="best-job-box">
+                                <img src="./images/image23.png" alt="" class="img64">
+                                <h2>World Concern</h2>
+                                <p>World Concern is a based Christian global disaster response sustainable community development.</p>
+                                <ul>
+                                    <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                    <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                </ul>
+                            </div>
+                            <!-- /.best-job-box -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 custom-pd">
+                            <div class="best-job-box">
+                                <img src="./images/image29.png" alt="" class="img64">
+                                <h2>Augmedix</h2>
+                                <p>Are you passionate about finding the best talent? Do you enjoy working in towards challenging.</p>
+                                <ul>
+                                    <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                    <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                </ul>
+                            </div>
+                            <!-- /.best-job-box -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 custom-pd">
+                            <div class="best-job-box">
+                                <img src="./images/image30.png" alt="" class="img64">
+                                <h2>Food Programme</h2>
+                                <p>The Government of Bangladesh has received financial support from the million IDA grant.</p>
+                                <ul>
+                                    <li><span><img src="./images/mini-map-pin.png" alt="">Butner, NC</span></li>
+                                    <li><span><img src="./images/briefcase.png" alt="">Full Time</span></li>
+                                </ul>
+                            </div>
+                            <!-- /.best-job-box -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 custom-pd">
+                            <div class="best-job-box h100 last-box">
+                                <div class="all-best-job-button">
+                                    <h2>+<span class="counter">88</span> </h2>
+                                    <a href="#">Explore All Jobs <img src="./images/r-arrow.png" alt=""></a>
+                                </div>
+                            </div>
+                            <!-- /.best-job-box -->
+                        </div>
+                        <!-- /.col-lg-4 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- .section-headding -->
+            </div>
+            <!-- /.custom-container -->
+        </div>
+        <!-- /.section-wrap -->
+    </section>
+
+    <!-- ++++++++++==========best job section end========++++++++ -->
+
+
+    <!-- claint section -->
+    <section>
+        <div class="claint-section-wrap">
+            <div class="custom-container">
+                <div class="section-headding">
+                    <h1 class="col-md-12 col-lg-6 ">
+                        What Our candidate are saying
+                    </h1>
+                    <div class="owl-carousel owl-theme">
+                        <div class="row">
+                            <div class="col-6 pr-110">
+                                <div class="claint-img">
+                                    <img src="./images/man-2.png" alt="" class="img-fluid">
+                                </div>
+                                <!-- /.claint-img -->
+
+                            </div>
+                            <div class="col-6">
+                                <div class="claint-content">
+                                    <p>Donec sapien est, accumsan ve justo vitae sagittis pellentesques sapien auctor pulvinar laoreet is ipsum vel mauris venenatis best consequat the orci.</p>
+                                    <h3>Jerome Steward</h3>
+                                    <span>Web Designer</span>
+                                </div>
+                                <!-- /.claint-content -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 pr-110">
+                                <div class="claint-img">
+                                    <img src="./images/man-3.png" alt="" class="img-fluid">
+                                </div>
+                                <!-- /.claint-img -->
+
+                            </div>
+                            <div class="col-6">
+                                <div class="claint-content">
+                                    <p>Exhibit Systems is not a provider. They are not a supplier. They are a partner with expertise in making trade shows effective.</p>
+                                    <h3>Ray Ackerlund</h3>
+                                    <span>Skyward</span>
+                                </div>
+                                <!-- /.claint-content -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 pr-110">
+                                <div class="claint-img">
+                                    <img src="./images/man-2.png" alt="" class="img-fluid">
+                                </div>
+                                <!-- /.claint-img -->
+
+                            </div>
+                            <div class="col-6">
+                                <div class="claint-content">
+                                    <p>In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.</p>
+                                    <h3>Kristine Marion</h3>
+                                    <span>Rexnord</span>
+                                </div>
+                                <!-- /.claint-content -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.owl-carousel -->
+                </div>
+                <!-- /.section-headding -->
+            </div>
+            <!-- /.custom-container -->
+        </div>
+        <!-- /.claint-section-wrap -->
+    </section>
+
+    <!-- ++++++++++==========claint section end========++++++++ -->
+
+    <!-- Footer section -->
+    <footer>
+        <div class="footer-wrap">
+            <div class="custom-container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="footer-add">
+                            <h1>Contact Us</h1>
+                            <ul>
+                                <li>Pecan St undefined Portland of 29125 United States</li>
+                                <li>kenzi.lawson@example.com</li>
+                                <li>(252) 555-0126</li>
+                                <li>Hours : Opens 10AM Sun to Mon</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12pl-0 footer-big-img">
+                        <img src="./images/Rectangle145.png" alt="">
+                    </div>
+                </div>
+                <!-- /.row -->
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#" class="footer-logo"><img src="./images/logo-bottom.png" alt=""></a>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 d-flex pl-0 pr-0 l-h ">
+                            <p>© 2020 Hasanul Banna. Create for back_slash.</p>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="./images/facebook.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="./images/twitter.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img src="./images/linkedin.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.footer-bottom -->
+            </div>
+            <!-- /.custom-container -->
+        </div>
+        <!-- /.footer-wrap -->
+    </footer>
+    <!-- ++++++++++==========Footer section end========++++++++ -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- curosel -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- counter-up scripr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="./js/counter-up.js"></script>
+    <!-- main js -->
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>

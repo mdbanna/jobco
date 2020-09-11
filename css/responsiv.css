@@ -1,0 +1,336 @@
+                              @media (max-width: 1200px) {}
+                              
+                              @media (max-width: 991px) {
+                                  .sr-card form {
+                                      display: block;
+                                  }
+                                  .sr-card {
+                                      width: 641px;
+                                  }
+                                  .sr-card form li:nth-child(1),
+                                  .sr-card form li:nth-child(2) {
+                                      padding: 41px 48px 38px 41px;
+                                      background: #fff;
+                                  }
+                                  .sr-card form li:nth-child(2) {
+                                      padding-top: 35px;
+                                      padding-bottom: 79px;
+                                      margin-top: 10px;
+                                  }
+                                  .select-box .option-container {
+                                      -webkit-transform: translate(-41px, 70px);
+                                      -ms-transform: translate(-41px, 70px);
+                                      transform: translate(-41px, 70px);
+                                      -moz-transform: translate(-41px, 70px);
+                                      -o-transform: translate(-41px, 70px);
+                                  }
+                                  .hero-section h2 {
+                                      font-size: 57px;
+                                  }
+                                  .hero-section-sr-box {
+                                      margin-bottom: 280px;
+                                  }
+                                  .extra-bg {
+                                      margin-top: -120px;
+                                  }
+                                  .job-find-section-wrap .job-description .right-side ul {
+                                      justify-content: left;
+                                      margin-top: 31px;
+                                  }
+                                  .best-job-section-wrap .best-job-box.last-box {
+                                      padding-bottom: 50%;
+                                  }
+                                  .claint-section-wrap .section-headding .pr-110 {
+                                      padding-right: 60px;
+                                  }
+                                  .claint-section-wrap .claint-img {
+                                      height: 287px;
+                                  }
+                                  .claint-section-wrap .claint-content p {
+                                      font-size: 30px;
+                                      line-height: normal;
+                                  }
+                              }
+                              
+                              @media (max-width: 767px) {
+                                  .hero-section h2 {
+                                      margin-top: 110px;
+                                  }
+                                  .extra-bg {
+                                      margin-top: 182px;
+                                  }
+                                  .claint-section-wrap .section-headding .pr-110 {
+                                      padding-right: 48px;
+                                  }
+                                  .claint-section-wrap .claint-img {
+                                      height: 330px;
+                                  }
+                              }
+                              
+                              @media (max-width: 575px) {
+                                  .hero-section h2 {
+                                      font-size: 60px;
+                                      margin-top: 90px;
+                                  }
+                                  .hero-section .left-img img {
+                                      margin-left: 13px;
+                                      margin-top: 69px;
+                                      width: 100%;
+                                  }
+                                  .extra-bg {
+                                      margin-top: -168px;
+                                  }
+                                  .extra-bg::before {
+                                      right: 20px;
+                                  }
+                                  .job-find-section-wrap .job-description .right-side ul li span {
+                                      padding: 8px 20px;
+                                  }
+                                  .claint-section-wrap .claint-content p {
+                                      font-size: 25px;
+                                      line-height: normal;
+                                  }
+                                  .claint-section-wrap .section-headding .pr-110 {
+                                      padding-right: 0px;
+                                  }
+                                  .claint-section-wrap .claint-img {
+                                      height: 275px;
+                                  }
+                                  .footer-wrap .footer-bottom {
+                                      text-align: center;
+                                  }
+                                  .footer-bottom .d-flex {
+                                      display: block !important;
+                                  }
+                                  .footer-wrap .footer-bottom ul {
+                                      padding-left: 0px;
+                                      justify-content: center;
+                                  }
+                                  .footer-wrap .footer-bottom ul li:first-child {
+                                      margin-left: 0;
+                                  }
+                              }
+                              
+                              @media (max-width: 480px) {
+                                  .hero-section h2 {
+                                      font-size: 48px;
+                                      margin-top: 73px;
+                                  }
+                                  .hero-section .left-img img {
+                                      margin-left: 3px;
+                                      margin-top: 73px;
+                                      width: 100%;
+                                  }
+                                  .extra-bg {
+                                      margin-top: -210px;
+                                  }
+                                  .extra-bg::before {
+                                      right: 11px;
+                                  }
+                                  .job-find-section-wrap .job-description .left-side ul li {
+                                      margin-right: 20px;
+                                  }
+                                  .job-find-section-wrap .job-description .right-side ul li span {
+                                      padding: 8px 14px;
+                                      margin-right: 5px;
+                                  }
+                                  .job-find-section-wrap .job-description .right-side ul li {
+                                      font-size: 14px;
+                                      color: #75758A;
+                                      font-weight: normal;
+                                  }
+                                  .claint-section-wrap .claint-content p {
+                                      font-size: 22px;
+                                      line-height: normal;
+                                  }
+                                  .claint-section-wrap .section-headding .pr-110 {
+                                      padding-right: 0px;
+                                  }
+                                  .claint-section-wrap .claint-img {
+                                      height: 230px;
+                                  }
+                                  .section-headding h1 {
+                                      font-size: 40px;
+                                  }
+                                  .footer-wrap .footer-big-img img {
+                                      width: 100%;
+                                  }
+                                  .footer-wrap .footer-add {
+                                      padding-top: 50px;
+                                      padding-right: 155px;
+                                  }
+                                  .footer-wrap .footer-bottom {
+                                      text-align: center;
+                                  }
+                                  .footer-bottom .d-flex {
+                                      display: block !important;
+                                  }
+                                  .footer-wrap .footer-bottom ul {
+                                      padding-left: 0px;
+                                      justify-content: center;
+                                  }
+                                  .footer-wrap .footer-bottom ul li:first-child {
+                                      margin-left: 0;
+                                  }
+                              }
+                              
+                              @media (max-width: 320px) {
+                                  .navbar-brand img {
+                                      width: 60%;
+                                  }
+                                  .hero-section h2 {
+                                      font-size: 40px;
+                                  }
+                                  .hero-section .left-img img {
+                                      width: 100%;
+                                  }
+                                  .counter-div h2 {
+                                      font-size: 30px;
+                                  }
+                                  .counter-div span {
+                                      font-size: 14px;
+                                  }
+                                  .b-r::after {
+                                      height: 60px;
+                                      right: -10px;
+                                  }
+                                  .extra-bg {
+                                      margin-top: -165px;
+                                      padding-top: 40px;
+                                      padding-right: 0px;
+                                      position: relative;
+                                  }
+                                  .extra-bg::before {
+                                      right: -4px;
+                                  }
+                                  .section-headding h1 {
+                                      font-size: 21px;
+                                  }
+                                  .job-find-section-wrap .job-find-single-box {
+                                      padding-top: 25px;
+                                      padding-left: 25px;
+                                      padding-bottom: 25px;
+                                      padding-right: 25px;
+                                  }
+                                  .job-section-wrap .row .job-item h2 {
+                                      font-weight: 700;
+                                      font-size: 18px;
+                                      line-height: 0px;
+                                      padding-top: 30px;
+                                      padding-bottom: 25px;
+                                  }
+                                  .job-section-wrap .job-browes-btn a {
+                                      padding: 15px 35px;
+                                      font-size: 15px;
+                                  }
+                                  .job-find-section-wrap .job-heading h2 {
+                                      padding-left: 10px;
+                                      font-size: 14px;
+                                  }
+                                  .job-find-section-wrap .job-heading img {
+                                      width: 64px;
+                                      height: 64px;
+                                  }
+                                  .job-find-section-wrap .job-description ul li {
+                                      font-size: 12px;
+                                  }
+                                  .job-find-section-wrap .job-description .right-side ul li a {
+                                      font-size: 10px;
+                                      padding: 8px 8px;
+                                  }
+                                  .job-find-section-wrap .job-description .right-side ul li span {
+                                      padding: 8px 8px;
+                                  }
+                                  .job-find-section-wrap .job-description .right-side ul li {
+                                      font-size: 10px;
+                                  }
+                                  .job-find-section-wrap .all-job-btn a {
+                                      padding: 17px 30px;
+                                      margin-top: 20px;
+                                      font-size: 14px;
+                                  }
+                                  .img64 {
+                                      width: 54px;
+                                      height: 54px;
+                                  }
+                                  .best-job-section-wrap .best-job-box h2 {
+                                      font-size: 18px;
+                                      padding-top: 18px;
+                                      padding-bottom: 13px;
+                                  }
+                                  .best-job-section-wrap .best-job-box p {
+                                      font-size: 13px;
+                                      line-height: 23px;
+                                      padding-bottom: 18px;
+                                  }
+                                  .best-job-section-wrap .best-job-box ul li {
+                                      margin-right: 20px;
+                                      font-size: 10px;
+                                  }
+                                  .best-job-section-wrap .best-job-box {
+                                      padding: 25px 25px 30px 25px
+                                  }
+                                  .best-job-section-wrap .all-best-job-button a {
+                                      font-size: 14px;
+                                  }
+                                  .claint-section-wrap .claint-content p {
+                                      font-size: 15px;
+                                      line-height: normal;
+                                  }
+                                  .claint-section-wrap .claint-content h3 {
+                                      font-size: 14px;
+                                      padding-top: 20px;
+                                      padding-bottom: 0px;
+                                  }
+                                  .claint-section-wrap .claint-content span {
+                                      font-size: 12px;
+                                  }
+                                  .claint-section-wrap .section-headding .pr-110 {
+                                      padding-right: 0;
+                                  }
+                                  .claint-section-wrap .claint-img {
+                                      height: 150px;
+                                  }
+                                  .owl-theme .owl-dots .owl-dot span {
+                                      width: 8px;
+                                      height: 8px;
+                                      margin-right: 8px;
+                                  }
+                                  .footer-wrap .footer-big-img img {
+                                      width: 100%;
+                                  }
+                                  .footer-wrap .footer-add h1 {
+                                      font-size: 20px;
+                                      padding-bottom: 30px;
+                                  }
+                                  .footer-wrap .footer-add {
+                                      padding-top: 20px;
+                                      padding-right: 0px;
+                                  }
+                                  .footer-wrap .footer-add ul li {
+                                      font-size: 12px;
+                                      padding-bottom: 9px;
+                                  }
+                                  .footer-wrap .footer-bottom {
+                                      padding-top: 40px;
+                                      text-align: center;
+                                  }
+                                  .footer-bottom .d-flex {
+                                      display: block !important;
+                                  }
+                                  .footer-wrap .footer-bottom p {
+                                      font-size: 12px;
+                                  }
+                                  .footer-bottom .footer-logo img {
+                                      width: 120px;
+                                  }
+                                  .footer-wrap .footer-bottom ul {
+                                      padding-left: 0px;
+                                      justify-content: center;
+                                  }
+                                  /* 
+
+
+
+                               */
+                              }
